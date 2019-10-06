@@ -2,7 +2,7 @@ package _21_MergeTwoSortedLists
 
 import "testing"
 
-func TestMergeTwoLists(t *testing.T) {
+func TestMergeTwoLists1(t *testing.T) {
 	node1 := &ListNode{1, nil}
 	node2 := &ListNode{2, nil}
 	node4 := &ListNode{4, nil}
@@ -17,7 +17,7 @@ func TestMergeTwoLists(t *testing.T) {
 	l2.Next = node3
 	l2.Next.Next = node41
 
-	res := mergeTwoLists(l1, l2)
+	res := mergeTwoLists1(l1, l2)
 	for res != nil {
 		t.Log(res.Val)
 		res = res.Next

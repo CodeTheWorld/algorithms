@@ -1,6 +1,6 @@
 package _21_MergeTwoSortedLists
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode {
 	head := &ListNode{}
 	iter := head
 
